@@ -6,7 +6,12 @@ Aquí se encuentran todas las practicas emitidas durante el ciclo lectivo 2024.
 
 Todas las practicas hacen uso del [proyecto-gradle](proyecto-gradle-main.zip),
 un proyecto de Gradle con herramientas de revisión y verificación automática
-ya configurado.
+ya configuradas y adaptadas a la idiosincracia de la cátedra.
+
+* [PMD](https://pmd.github.io/)
+* [CheckStyle](https://checkstyle.sourceforge.io/)
+* [SpotBugs](https://spotbugs.github.io/)
+* [Jacoco](https://www.jacoco.org/jacoco/index.html)
 
 Este proyecto ha ido mejorando con el tiempo y probablemente lo siga haciendo
 por lo que se aceptan cambios, sugerencias y mejoras en su propio repositorio,
@@ -18,9 +23,9 @@ La corrección de las practicas, se apoya en gran medida en el Proyecto Gradle,
 pero la otra parte, esta en la herramienta 
 [Miracomotecorrigeconan](https://github.com/INGCOM-UNRN-PII/miracomotecorrigeconan)
 la cual se encarga de clonar el repositorio, ejecutar `gradle check` y emitir un
-comentario en el Pull Request creado por Github Classroom con el resultado de
-Checkstyle, SpotBugs, PMD y JaCOCO, asi como ejecutar los tests presentes en la
-entrega, como la base de la corrección.
+comentario en el Pull Request creado por Github Classroom con el resultado de las
+herramientas configuradas, asi como ejecutar los tests presentes en la entrega, 
+como la base de la corrección.
 
 Esta previsto que esto sea completamente automático, pero de momento esta solo
 automatizado, la corrección en sí, es hecha a mano.
