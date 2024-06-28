@@ -2,14 +2,39 @@
 
 Aquí se encuentran todas las practicas emitidas durante el ciclo lectivo 2024.
 
+## Proyectos
+
+Todas las practicas hacen uso del [proyecto-gradle](proyecto-gradle-main.zip),
+un proyecto de Gradle con herramientas de revisión y verificación automática
+ya configurado.
+
+Este proyecto ha ido mejorando con el tiempo y probablemente lo siga haciendo
+por lo que se aceptan cambios, sugerencias y mejoras en su propio repositorio,
+[INGCOM-UNRN-PII/proyecto-gradle](https://github.com/INGCOM-UNRN-PII/proyecto-gradle)
+
+## La revisión de las practicas
+
+La corrección de las practicas, se apoya en gran medida en el Proyecto Gradle,
+pero la otra parte, esta en la herramienta 
+[Miracomotecorrigeconan](https://github.com/INGCOM-UNRN-PII/miracomotecorrigeconan)
+la cual se encarga de clonar el repositorio, ejecutar `gradle check` y emitir un
+comentario en el Pull Request creado por Github Classroom con el resultado de
+Checkstyle, SpotBugs, PMD y JaCOCO, asi como ejecutar los tests presentes en la
+entrega, como la base de la corrección.
+
+Esta previsto que esto sea completamente automático, pero de momento esta solo
+automatizado, la corrección en sí, es hecha a mano.
+
 ## TP1-2024 - Puesta en marcha
 
 El objetivo de esta practica es garantizar que todos estemos en la misma página
 con respecto a las herramientas que utilizaremos en el cuatrimestre, así como
 familiarizarnos con el ciclo de trabajo.
 
-Durante la cursada, utilizaremos la versión del [JDK 17](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe),
-la misma es una versión de [soporte extendido (LTS)](https://www.oracle.com/java/technologies/java-se-support-roadmap.html) 
+Durante la cursada, utilizaremos la versión del 
+[JDK 17](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe),
+la misma es una versión de 
+[soporte extendido (LTS)](https://www.oracle.com/java/technologies/java-se-support-roadmap.html) 
 
 Utilizaremos [IntelliJ Idea 2024 Community Edition](https://download.jetbrains.com/idea/ideaIC-2023.3.4.exe) 
 como entorno de desarrollo integrado, y los proyectos individuales están basados 
