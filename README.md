@@ -18,3 +18,5 @@ La lista de reproducción en Youtube con las grabaciones.
 [Javadoc 17](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
 
 [JGrasp](https://www.jgrasp.org/)
+
+![La cursada 2024](P2.png "La cursada 2024")
